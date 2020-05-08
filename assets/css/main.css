@@ -28,6 +28,9 @@
 		vertical-align: baseline;
 	}
 
+	span {
+                display: inline-block;
+	}
 	article, aside, details, figcaption, figure,
 	footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -931,6 +934,7 @@
 		}
 
 			#main .avatar img {
+				width: 40%;
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
